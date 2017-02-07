@@ -2,12 +2,7 @@
 use warnings;
 use strict;
 use 5.014;
-use Log::Message::Simple qw[msg error debug
-                            carp croak cluck confess];
 
-local $Log::Message::Simple::MSG_FH     = \*STDERR;
-local $Log::Message::Simple::ERROR_FH   = \*STDERR;
-local $Log::Message::Simple::DEBUG_FH   = \*STDERR;
 
 =pod
 
